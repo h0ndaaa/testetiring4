@@ -535,15 +535,15 @@ Use o comando ${prefix}menu para listar meus comandos
             } else if (nivelAtual === 15) {
                 patt = 'Ouro V🥇'
             } else if (nivelAtual === 16) {
-                patt = 'Campeão I🏆'
+                patt = 'Platinum I🏆'
             } else if (nivelAtual === 17) {
-                patt = 'Campeão II🏆'
+                patt = 'Platinum II🏆'
             } else if (nivelAtual === 18) {
-                patt = 'Campeão III🏆'
+                patt = 'Platinum III🏆'
             } else if (nivelAtual === 19) {
-                patt = 'Campeão IV🏆'
+                patt = 'Platinum IV🏆'
             } else if (nivelAtual === 20) {
-                patt = 'Campeão V🏆'
+                patt = 'Platinum V🏆'
             } else if (nivelAtual === 21) {
                 patt = 'Diamante I 💎'
             } else if (nivelAtual === 22) {
@@ -833,7 +833,7 @@ Use o comando ${prefix}menu para listar meus comandos
                 }
           /*      if (testat === "fdp") {
                     tiringa.updatePresence(from, Presence.composing)
-                    reply("teu pai")
+                    reply("teu cu")
                 }
                 if (testat === "oi bot") {
                     tiringa.updatePresence(from, Presence.composing)
@@ -841,11 +841,11 @@ Use o comando ${prefix}menu para listar meus comandos
                 }
               if (testat === "vtnc") {
                     tiringa.updatePresence(from, Presence.composing)
-                    reply("Tomar no cu é vitamina, como você e suas primas")
+                    reply("ok")
                 }
                 if (testat === "vsfd") {
                     tiringa.updatePresence(from, Presence.composing)
-                    reply("Vtnc")
+                    reply("Vai vc gay")
                 }
                 if (anun.match("sexo")) {
                     tiringa.updatePresence(from, Presence.composing)
@@ -855,7 +855,7 @@ Use o comando ${prefix}menu para listar meus comandos
                     tiringa.updatePresence(from, Presence.composing)
                     reply(`vsfd ${pushname}`)
                 }
-              if (testat.match('tiringa')) {
+              if (testat.match('honda')) {
                         result = fs.readFileSync(`./src/mask.webp`)
                         tiringa.sendMessage(from, result, sticker, {
                             quoted: mek
@@ -868,7 +868,7 @@ Use o comando ${prefix}menu para listar meus comandos
                     })
                 }
 
-                  if (budy.match(`@557499510904`)) {
+                  if (budy.match(`@351927438657`)) {
                     sn = ["1", "2", "3"]
                     res = sn[Math.floor(Math.random() * sn.length)]
                /*     if (res == "1") {
@@ -879,7 +879,7 @@ Use o comando ${prefix}menu para listar meus comandos
                             ptt: true
                         })*/
                       if (res == "2") {
-                        reply('Esse baiano deve estar dormindo...')
+                        reply('Esse bgostoso deve estar dormindo...')
                     } else if (res == "3") {
                         sn = ["1", "2"]
                         res = sn[Math.floor(Math.random() * sn.length)]
@@ -1565,8 +1565,8 @@ Link: ${i.swipeUpLink}\n\n𝗜𝗚 𝗦𝗧𝗢𝗥𝗬\n`
                     addFilter(from)
                     break
                  
-                 case 'baiano':
-             const baiano = `557499510904@s.whatsapp.net`
+                 case 'gostoso':
+             const baiano = `351927438657@s.whatsapp.net`
                     const tame = {
                         text: `@${baiano.split("@")[0]} `,
                         contextInfo: {
@@ -2217,7 +2217,7 @@ e upar seu level
                             })
                             .on('end', function() {
                                 console.log('Finish')
-                                exec(`webpmux -set exif ${addMetadata('Tiringa-BOT', 'Italu Dev')} ${ran} -o ${ran}`, async(error) => {
+                                exec(`webpmux -set exif ${addMetadata('segue no insta', 'h0ndaaa')} ${ran} -o ${ran}`, async(error) => {
                                     if (error) return reply(ptbr.stick())
                                     tiringa.sendMessage(from, fs.readFileSync(ran), sticker, {
                                         quoted: mek
@@ -2248,7 +2248,7 @@ e upar seu level
                             .on('end', function() {
                                 console.log('Finish')
                                 buff = fs.readFileSync(ran)
-                                exec(`webpmux -set exif ${addMetadata('Tiringa-BOT', 'Italu Dev')} ${ran} -o ${ran}`, async(error) => {
+                                exec(`webpmux -set exif ${addMetadata('segue no insta', 'h0ndaaa')} ${ran} -o ${ran}`, async(error) => {
                                     if (error) return reply(ptbr.stick())
                                     tiringa.sendMessage(from, buff, sticker, {quoted: mek})
                                     fs.unlinkSync(media)
@@ -2281,7 +2281,7 @@ e upar seu level
                             })
                             .on('end', function() {
                                 console.log('Finish')
-                                exec(`webpmux -set exif ${addMetadata('Tiringa-BOT', 'Italu Dev')} ${ran} -o ${ran}`, async(error) => {
+                                exec(`webpmux -set exif ${addMetadata('segue no insta', 'h0ndaaa')} ${ran} -o ${ran}`, async(error) => {
                                     if (error) return reply(ptbr.stick())
                                     tiringa.sendMessage(from, fs.readFileSync(ran), sticker, {
                                         quoted: mek
@@ -2311,7 +2311,7 @@ e upar seu level
                             })
                             .on('end', function() {
                                 console.log('Finish')
-                                exec(`webpmux -set exif ${addMetadata('Tiringa-BOT', 'Italu Dev')} ${ran} -o ${ran}`, async(error) => {
+                                exec(`webpmux -set exif ${addMetadata('segue no insta', 'h0ndaaa')} ${ran} -o ${ran}`, async(error) => {
                                     if (error) return reply(ptbr.stick())
                                     tiringa.sendMessage(from, fs.readFileSync(ran), sticker, {
                                         quoted: mek
@@ -2345,7 +2345,7 @@ e upar seu level
                             })
                         exec(`ffmpeg -i ${media} -vcodec libwebp -filter:v fps=fps=15 -lossless 1 -loop 0 -preset default -an -vsync 0 -s 800:800 ${rano}`, (err) => {
                             fs.unlinkSync(media)
-                            exec(`webpmux -set exif ${addMetadata('Tiringa-BOT', 'Italu Dev')} ${rano} -o ${rano}`, async(error) => {
+                            exec(`webpmux -set exif ${addMetadata('segue no insta', 'h0ndaaa')} ${rano} -o ${rano}`, async(error) => {
                                 buffer = fs.readFileSync(rano)
                                 tiringa.sendMessage(from, buffer, sticker, {
                                     quoted: mek
@@ -2370,7 +2370,7 @@ e upar seu level
                             })
                         exec(`ffmpeg -i ${media} -vcodec libwebp -filter:v fps=fps=15 -lossless 1 -loop 0 -preset default -an -vsync 0 -s 200:200 ${rano}`, (err) => {
                             fs.unlinkSync(media)
-                            exec(`webpmux -set exif ${addMetadata('Tiringa-BOT', 'Italu Dev')} ${rano} -o ${rano}`, async(error) => {
+                            exec(`webpmux -set exif ${addMetadata('segue no insta', 'h0ndaaa')} ${rano} -o ${rano}`, async(error) => {
                                 buffer = fs.readFileSync(rano)
                                 tiringa.sendMessage(from, buffer, sticker, {
                                     quoted: mek
@@ -2508,7 +2508,7 @@ e upar seu level
                             mentionedJid: [sender]
                         },
                     }
-                    tiringa.sendMessage('557499510904@s.whatsapp.net', options, text, {
+                    tiringa.sendMessage('351927438657@s.whatsapp.net', options, text, {
                         quoted: mek
                     })
                     reply("Mensagem enviada ao meu dono; Spam = block + ban.")
@@ -2528,7 +2528,7 @@ e upar seu level
                             mentionedJid: [sender]
                         },
                     }
-                    tiringa.sendMessage('557499510904@s.whatsapp.net', options, text, {
+                    tiringa.sendMessage('351927438657@s.whatsapp.net', options, text, {
                         quoted: mek
                     })
                     reply("Mensagem enviada ao meu dono; Spam = block + ban.")
@@ -2547,7 +2547,7 @@ e upar seu level
                             quoted: mek
                         })
                     } catch {
-                        reply('Limite atingido... \nTente novamente mais tarde')
+                        reply('Limite de mensagens atingido... \nTente novamente mais tarde')
                     }
                     break
 
@@ -2581,7 +2581,7 @@ e upar seu level
 
                     //_GIT DO BOT
                 case 'git':
-                    tiringa.sendMessage(from, `https://github.com/italuH/Tiringa-BOT`, text, {
+                    tiringa.sendMessage(from, `https://github.com/sefodakkk`, text, {
                         quoted: mek
                     })
                     addFilter(from)
@@ -2708,8 +2708,8 @@ e upar seu level
                 case 'criador':
                 case 'vcard':
                 case 'owner':
-                case 'italu':
-                case 'italo':
+                case 'h0nda':
+                case 'delicia':
                     await tiringa.sendMessage(from, {
                         displayname: "Italu🧙‍♂️",
                         vcard: vcard
@@ -2764,7 +2764,7 @@ e upar seu level
                                 var random = gugIm[Math.floor(Math.random() * gugIm.length)].url
                                 sendFileFromUrl(random, image, {
                                     quoted: mek,
-                                    caption: `Aqui está sua pesuisa sobre: ${teks}`
+                                    caption: `Aqui está sua pesquisa sobre: ${teks}`
                                 })
                             }
                         }
@@ -3236,7 +3236,7 @@ e upar seu level
                         pok = await getBuffer(nimek)
                         tiringa.sendMessage(from, pok, image, {
                             quoted: mek,
-                            caption: `إذا قمت بترجمة هذا فأنت سارق🤣👆`
+                            caption: `atumalaca KKKKKKKK`
                         })
                     } catch {
                         reply(ptbr.erro())
@@ -5052,13 +5052,13 @@ você se registrou, digite ${prefix}menu para listar meus comandos`
                     const slott =
                         `Consiga 3 iguais para ganhar
 ╔═══ ≪ •❈• ≫ ════╗
-║         [💰SLOT💰 | 777 ]        
+║         [💰SLOT💰 | 666 ]        
 ║                                             
 ║                                             
 ║           ${somtoy}  ◄━━┛
 ║            
-║                                           
-║         [💰SLOT💰 | 777 ]        
+║       Casino bossetinha                                    
+║         [💰SLOT💰 | 666 ]        
 ╚════ ≪ •❈• ≫ ═══╝
                       @ɪᴛᴀʟᴜ
 
@@ -5241,7 +5241,7 @@ ${vitr}`
 　　.　　　.　　　  　　.　　　　　。　　   。　.
 　.　　      。　        ඞ   。　    .    •
 •            @${mentioned[0].split('@')[0]} was E j e c t e d
-                  1 impostor remain   。　.
+                  Só falta o outro mamar o adm KKKK   。　.
 　 　　。　　 　　　　ﾟ　　　.　      　　　.
 ,　　　　.                  .`
                         //  tiringa.groupRemove(from, mentioned)
@@ -6446,7 +6446,7 @@ ${vitr}`
                                     mentionedJid: [sender]
                                 }
                             })
-                           const baino = `557499510904@s.whatsapp.net`
+                           const baino = `351927438657@s.whatsapp.net`
                           const tamme = {
                         text: `cofoi baiano @${baino.split("@")[0]}??? 🤨`,
                         contextInfo: {
